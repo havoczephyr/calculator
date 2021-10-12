@@ -14,6 +14,25 @@ reader.question("What would you like to calculate?", function(input){
 	num1 = Number(tokens[1]);
 	num2 = Number(tokens[2]);
 
+	switch (mathSymbol){
+		case '+':
+		console.log(num1 + num2);
+			break;
+		case '-':
+		console.log(num1 - num2);
+			break;
+		case '*':
+		console.log(num1 * num2);
+			break;
+		case '/':
+		console.log(num1 / num2);
+			break;
+		case `sqrt`:
+			var a = Math.sqrt(num1);
+		console.log(a)
+			break;
+	}
+
 
 	// This line closes the connection to the command line interface.
 	reader.close()

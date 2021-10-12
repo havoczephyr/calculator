@@ -13,7 +13,7 @@ reader.question("What would you like to calculate?", function(input){
 	mathSymbol = tokens[0];
 	num1 = Number(tokens[1]);
 	num2 = Number(tokens[2]);
-
+	
 	switch (mathSymbol){
 		case '+':
 		console.log(num1 + num2);

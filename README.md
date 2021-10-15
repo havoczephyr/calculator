@@ -1,4 +1,9 @@
-## How to use:
+## Calculator
+### October 12th 2021
+
+This Calculator was an exercise I performed at Devmountain.
+
+### How to use:
 
 Calculator can perform the following operations:
 | operation | symbol
